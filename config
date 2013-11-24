@@ -18,6 +18,7 @@ slang=en,fr
 osd-bar-align-x=+1
 osd-bar-align-y=-1
 osd-bar-w=20
+osd-duration=2500
 
 # Verbosity.
 msglevel=all=3:cache=5:input=1:statusline=5
