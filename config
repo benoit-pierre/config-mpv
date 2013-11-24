@@ -15,6 +15,7 @@ alang=jpn,en,fr
 slang=en,fr
 
 # OSD.
+osc=no
 osd-bar-align-x=+1
 osd-bar-align-y=-1
 osd-bar-w=20
