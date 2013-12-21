@@ -11,8 +11,8 @@ volstep=2
 lirc=no
 
 # Language selection.
-alang=jpn,en,fr
-slang=en,fr
+alang=jpn,ja,eng,en,fra,fre,fr
+slang=cc_eng,cc_en,eng,en,cc_fra,cc_fre,cc_fr,fra,fre,fr,tts_eng,tts_en,tts_fre,tts_fra,tts_fr
 
 # OSD.
 osc=no
