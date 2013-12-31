@@ -22,7 +22,7 @@ osd-bar-w=20
 osd-duration=2500
 
 # Verbosity.
-msglevel=all=3:cache=5:input=1:statusline=5
+msglevel=all=info:cache=status:input=err:msg=status
 
 # Video.
 fixed-vo=yes
