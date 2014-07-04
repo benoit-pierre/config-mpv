@@ -5,10 +5,9 @@
 
 # Audio.
 ao=pulse,alsa,
-volstep=2
 
 # Input.
-lirc=no
+input-lirc=no
 
 # Language selection.
 alang=jpn,ja,eng,en,fra,fre,fr
@@ -22,7 +21,7 @@ osd-bar-w=20
 osd-duration=2500
 
 # Verbosity.
-msglevel=all=info:cache=status:input=error:msg=status
+msg-level=all=info:cache=status:input=error:msg=status
 
 # Video.
 fixed-vo=yes
@@ -33,9 +32,12 @@ fixed-vo=yes
 
 [youtube]
 
+# Cache.
 cache-default=30000
-cache-min=20
-cache-pause=10
+cache-initial=1000
+cache-pause=yes
+cache-seek-min=1000
+cache-file-size=1048576
 
 # }}}
 
