@@ -39,6 +39,9 @@ cache-pause=yes
 cache-seek-min=1000
 cache-file-size=1048576
 
+# Misc.
+keep-open=yes
+
 # }}}
 
 # vim: ft=mplayerconf foldmethod=marker
